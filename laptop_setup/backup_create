@@ -1,5 +1,5 @@
 #!/bin/bash
 
-dpkg --get-selections > ./Package.list
-sudo cp -R /etc/apt/sources.list* .
-sudo apt-key exportall > ./Repo.keys
+dpkg --get-selections > bkup/Package.list
+sudo cp -R /etc/apt/sources.list* bkup
+sudo apt-key exportall > bkup/Repo.keys

@@ -288,6 +288,7 @@ gdb						install
 gdebi						install
 gdebi-core					install
 gdisk						install
+geary						install
 genisoimage					install
 geoclue						install
 geoclue-ubuntu-geoip				install

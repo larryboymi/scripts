@@ -1,8 +1,8 @@
 #!/bin/bash
 
-apt-key add ./Repo.keys
-sudo cp -R ./sources.list* /etc/apt/
+apt-key add bkup/Repo.keys
+sudo cp -R bkup/sources.list* /etc/apt/
 sudo apt-get update
 sudo apt-get install dselect
-sudo dpkg --set-selections < ./Package.list
+sudo dpkg --set-selections < bkup/Package.list
 sudo dselect
