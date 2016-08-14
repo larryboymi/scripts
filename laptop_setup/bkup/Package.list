@@ -144,6 +144,7 @@ dosfstools					install
 dpkg						install
 dpkg-dev					install
 dpkg-repack					install
+dropbox						install
 duplicity					install
 dvd+rw-tools					install
 e2fslibs:amd64					install
