@@ -139,12 +139,14 @@ dnsmasq-base					install
 dnsutils					install
 doc-base					install
 docbook-xml					install
+docbook-xsl					install
 docker-engine					install
 dosfstools					install
 dpkg						install
 dpkg-dev					install
 dpkg-repack					install
 dropbox						install
+dselect						install
 duplicity					install
 dvd+rw-tools					install
 e2fslibs:amd64					install
@@ -302,6 +304,7 @@ gimp						install
 gimp-data					install
 gir1.2-accounts-1.0:amd64			install
 gir1.2-accountsservice-1.0			install
+gir1.2-appindicator3-0.1			install
 gir1.2-atk-1.0					install
 gir1.2-atspi-2.0				install
 gir1.2-caribou-1.0				install
@@ -495,6 +498,7 @@ initramfs-tools					install
 initramfs-tools-bin				install
 initramfs-tools-core				install
 initscripts					install
+inkscape					install
 inputattach					install
 insserv						install
 install-info					install
@@ -531,7 +535,9 @@ language-pack-en-base				install
 language-pack-gnome-en				install
 language-pack-gnome-en-base			install
 laptop-detect					install
+leafpad						deinstall
 less						install
+letsencrypt					install
 liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libaa1:i386					install
@@ -968,6 +974,7 @@ libgraphite2-3:i386				install
 libgroupsock8:amd64				install
 libgs9:amd64					install
 libgs9-common					install
+libgsl2:amd64					install
 libgsm1:amd64					install
 libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
@@ -1146,6 +1153,7 @@ liblzo2-2:amd64					install
 libmad0:amd64					install
 libmad0:i386					install
 libmagic1:amd64					install
+libmagick++-6.q16-5v5:amd64			install
 libmagickcore-6.q16-2:amd64			install
 libmagickwand-6.q16-2:amd64			install
 libmailtools-perl				install
@@ -1426,6 +1434,7 @@ libqt5qml5:amd64				install
 libqt5quick5:amd64				install
 libqt5sql5:amd64				install
 libqt5sql5-sqlite:amd64				install
+libqt5svg5:amd64				install
 libqt5webkit5:amd64				install
 libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
@@ -1790,6 +1799,7 @@ libxml-twig-perl				install
 libxml-xpathengine-perl				install
 libxml2:amd64					install
 libxml2:i386					install
+libxml2-utils					install
 libxmu6:amd64					install
 libxmu6:i386					install
 libxmuu1:amd64					install
@@ -2029,6 +2039,7 @@ pulseaudio-module-bluetooth			install
 pulseaudio-module-x11				install
 pulseaudio-utils				install
 python						install
+python-acme					install
 python-apt					install
 python-apt-common				install
 python-aptdaemon				install
@@ -2039,6 +2050,7 @@ python-blinker					install
 python-cairo					install
 python-cffi-backend				install
 python-chardet					install
+python-configargparse				install
 python-configglue				install
 python-configobj				install
 python-crypto					install
@@ -2049,10 +2061,12 @@ python-dbus-dev					install
 python-debian					install
 python-debtagshw				install
 python-defer					install
+python-dialog					install
 python-dirspec					install
 python-ecdsa					install
 python-enum34					install
 python-feedparser				install
+python-funcsigs					install
 python-gconf					install
 python-gi					install
 python-gi-cairo					install
@@ -2068,12 +2082,15 @@ python-imaging					install
 python-ipaddress				install
 python-jwt					install
 python-ldb					install
+python-letsencrypt				install
 python-libxml2					install
 python-lockfile					install
 python-lxml					install
 python-mako					install
 python-markupsafe				install
 python-minimal					install
+python-mock					install
+python-ndg-httpsclient				install
 python-nemo					install
 python-netifaces				install
 python-notify					install
@@ -2082,12 +2099,15 @@ python-oneconf					install
 python-openssl					install
 python-pam					install
 python-paramiko					install
+python-parsedatetime				install
 python-parted					install
+python-pbr					install
 python-pexpect					install
 python-pil:amd64				install
 python-piston-mini-client			install
 python-pkg-resources				install
 python-protobuf					install
+python-psutil					install
 python-ptyprocess				install
 python-pyasn1					install
 python-pyasn1-modules				install
@@ -2101,6 +2121,8 @@ python-qt4-dbus					install
 python-renderpm:amd64				install
 python-reportlab				install
 python-reportlab-accel:amd64			install
+python-requests					install
+python-rfc3339					install
 python-samba					install
 python-serial					install
 python-service-identity				install
@@ -2114,12 +2136,17 @@ python-twisted-bin				install
 python-twisted-core				install
 python-twisted-names				install
 python-twisted-web				install
+python-tz					install
 python-ubuntu-sso-client			install
+python-urllib3					install
 python-utidylib					install
 python-vte					install
 python-webkit					install
 python-xapian					install
 python-xdg					install
+python-zope.component				install
+python-zope.event				install
+python-zope.hookable				install
 python-zope.interface				install
 python2.7					install
 python2.7-minimal				install
@@ -2258,6 +2285,7 @@ tomboy						install
 toshset						install
 transmission-common				install
 transmission-gtk				install
+ttf-mscorefonts-installer			install
 ttf-ubuntu-font-family				install
 tzdata						install
 ubuntu-drivers-common				install
@@ -2276,6 +2304,7 @@ unrar						install
 unshield					install
 unzip						install
 update-inetd					install
+update-notifier-common				install
 upower						install
 upstart						install
 ure						install
